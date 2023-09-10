@@ -63,6 +63,16 @@ namespace corecode_menu.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap dc0d6a1e0f68161252236a1fbf0798ac {
+            get {
+                object obj = ResourceManager.GetObject("dc0d6a1e0f68161252236a1fbf0798ac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap Picsart_23_09_10_00_24_34_909 {
             get {
                 object obj = ResourceManager.GetObject("Picsart_23-09-10_00-24-34-909", resourceCulture);
