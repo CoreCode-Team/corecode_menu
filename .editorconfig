@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE1006: Стили именования
+dotnet_diagnostic.IDE1006.severity = none
+
+# IDE0060: Удалите неиспользуемый параметр
+dotnet_diagnostic.IDE0060.severity = silent
+
+# IDE0055: Исправить форматирование
+dotnet_diagnostic.IDE0055.severity = none

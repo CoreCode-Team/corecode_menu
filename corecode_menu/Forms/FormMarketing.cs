@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace corecode_menu
+namespace corecode_menu.Forms
 {
-    public partial class Form1 : Form
+    public partial class FormMarketing : Form
     {
-        public Form1()
+        public FormMarketing()
         {
             InitializeComponent();
         }
