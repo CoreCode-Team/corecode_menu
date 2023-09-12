@@ -79,5 +79,35 @@ namespace corecode_menu.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Picsart_23_09_10_22_15_23_762_копия_png1 {
+            get {
+                object obj = ResourceManager.GetObject("Picsart_23-09-10_22-15-23-762 копия.png1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Picsart_23_09_10_22_15_23_762_копия00000 {
+            get {
+                object obj = ResourceManager.GetObject("Picsart_23-09-10_22-15-23-762 копия00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap Picsart_23_09_10_22_15_23_762_копия2 {
+            get {
+                object obj = ResourceManager.GetObject("Picsart_23-09-10_22-15-23-762 копия2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

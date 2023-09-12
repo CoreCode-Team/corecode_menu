@@ -215,11 +215,11 @@ namespace corecode_menu
             // 
             // btnHome
             // 
-            this.btnHome.Image = global::corecode_menu.Properties.Resources.Picsart_23_09_10_00_24_34_909;
+            this.btnHome.Image = global::corecode_menu.Properties.Resources.Picsart_23_09_10_22_15_23_762_копия2;
             this.btnHome.Location = new System.Drawing.Point(3, 3);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(211, 131);
-            this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnHome.TabIndex = 0;
             this.btnHome.TabStop = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);

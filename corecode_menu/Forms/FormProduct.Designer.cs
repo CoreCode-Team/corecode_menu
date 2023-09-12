@@ -29,38 +29,36 @@ namespace corecode_menu.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureOnCoding = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureOnCoding)).BeginInit();
+            this.pictureButtonApp = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureButtonApp)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureOnCoding
+            // pictureButtonApp
             // 
-            this.pictureOnCoding.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureOnCoding.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureOnCoding.Image = global::corecode_menu.Properties.Resources.dc0d6a1e0f68161252236a1fbf0798ac;
-            this.pictureOnCoding.Location = new System.Drawing.Point(0, 0);
-            this.pictureOnCoding.Name = "pictureOnCoding";
-            this.pictureOnCoding.Size = new System.Drawing.Size(800, 450);
-            this.pictureOnCoding.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureOnCoding.TabIndex = 1;
-            this.pictureOnCoding.TabStop = false;
+            this.pictureButtonApp.BackColor = System.Drawing.Color.Indigo;
+            this.pictureButtonApp.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureButtonApp.Location = new System.Drawing.Point(0, 0);
+            this.pictureButtonApp.Name = "pictureButtonApp";
+            this.pictureButtonApp.Size = new System.Drawing.Size(800, 58);
+            this.pictureButtonApp.TabIndex = 0;
+            this.pictureButtonApp.TabStop = false;
             // 
             // FormProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureOnCoding);
+            this.Controls.Add(this.pictureButtonApp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormProduct";
             this.Text = "Product";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureOnCoding)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureButtonApp)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureOnCoding;
+        private System.Windows.Forms.PictureBox pictureButtonApp;
     }
 }
