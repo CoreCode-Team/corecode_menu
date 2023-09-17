@@ -35,11 +35,11 @@ namespace corecode_menu.Forms
             // 
             // pictureButtonApp
             // 
-            this.pictureButtonApp.BackColor = System.Drawing.Color.Indigo;
+            this.pictureButtonApp.BackColor = System.Drawing.Color.Navy;
             this.pictureButtonApp.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureButtonApp.Location = new System.Drawing.Point(0, 0);
             this.pictureButtonApp.Name = "pictureButtonApp";
-            this.pictureButtonApp.Size = new System.Drawing.Size(800, 58);
+            this.pictureButtonApp.Size = new System.Drawing.Size(836, 58);
             this.pictureButtonApp.TabIndex = 0;
             this.pictureButtonApp.TabStop = false;
             // 
@@ -47,7 +47,8 @@ namespace corecode_menu.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(33)))), ((int)(((byte)(74)))));
+            this.ClientSize = new System.Drawing.Size(836, 489);
             this.Controls.Add(this.pictureButtonApp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormProduct";
